@@ -1,8 +1,5 @@
 # Add  code here!
-def prime?(number)
-  if number.prime?()
-    return true
-  else
-    false
-  end
+# def prime?(number)
+  Prime.each(100) do |prime|
+  p prime  #=> 2, 3, 5, 7, 11, ...., 97
 end
